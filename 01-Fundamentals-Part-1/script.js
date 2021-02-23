@@ -21,3 +21,10 @@ console.log(typeof(isIsland));
 console.log(typeof(population));
 console.log(typeof(country));
 console.log(typeof(language));
+
+// let, const & var
+
+const ind_language = 'Hindi';
+
+ind_language = 'Tamil';
+console.log(ind_language);
