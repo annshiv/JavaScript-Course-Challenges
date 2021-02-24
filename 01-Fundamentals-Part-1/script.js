@@ -69,6 +69,11 @@ console.log(finland_population < india_population);
 console.log(avg_population > india_population);
 console.log(description);
 
+// Strings and Template Literals
+
+const description = `Tamilnadu is in india, and its ${india_population} million people speaks tamil`
+console.log(description)
+
 ////////////////////////////////////
 // Coding Challenge #2
 
