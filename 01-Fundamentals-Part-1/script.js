@@ -57,6 +57,17 @@ johnsBMI = (johns_weight / johns_height) ** 2;
 console.log(marksBMI>johnsBMI)
 console.log(marksBMI<johnsBMI)
 
+// basic operators
+
+const india_population = 7;
+const finland_population = 6;
+const avg_population = 33;
+const description = `Tamilnadu is in india, and its 11 million people speaks tamil`
+
+console.log(india_population);
+console.log(finland_population < india_population);
+console.log(avg_population > india_population);
+console.log(description);
 
 ////////////////////////////////////
 // Coding Challenge #2
