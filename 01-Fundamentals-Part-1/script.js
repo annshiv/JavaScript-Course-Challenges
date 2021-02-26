@@ -126,3 +126,32 @@ if ((Dolphins > Koalas) && (Dolphins > minimumScore && Koalas > minimumScore)) {
 } else if  (Dolphins < minimumScore && Koalas < minimumScore) {
     console.log('Match is draw')
 }
+
+////////////////////////////////////
+// Coding Challenge #4
+
+/*
+Steven wants to build a very simple tip calculator for whenever he goes eating in a resturant. In his country, it's usual to tip 15% if the bill value is between 50 and 300. If the value is different, the tip is 20%.
+
+1. Your task is to caluclate the tip, depending on the bill value. Create a variable called 'tip' for this. It's not allowed to use an if/else statement 😅 (If it's easier for you, you can start with an if/else statement, and then try to convert it to a ternary operator!)
+2. Print a string to the console containing the bill value, the tip, and the final value (bill + tip). Example: 'The bill was 275, the tip was 41.25, and the total value 316.25'
+
+TEST DATA: Test for bill values 275, 40 and 430
+
+HINT: To calculate 20% of a value, simply multiply it by 20/100 = 0.2
+HINT: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
+*/
+const t1 = 275;
+const t2 = 40;
+const t3 = 430;
+// let tip;
+// if (t1 >= 50 && t1 <= 300) {
+//     tip = t1/20
+// }
+
+let tip1 = t1 >= 50 && t1 <= 100 ? t1*0.15 : t1*0.2;
+let tip2 = t2 >= 50 && t2 <= 100 ? t2*0.15 : t2*0.2;
+let tip3 = t3 >= 50 && t3 <= 100 ? t3*0.15 : t3*0.2;
+console.log(`the bill was ${t1}, the tip was ${tip1}, and the total value ${t1 + tip1}`);
+console.log(`the bill was ${t2}, the tip was ${tip2}, and the total value ${t2 + tip2}`);
+console.log(`the bill was ${t3}, the tip was ${tip3}, and the total value ${t3 + tip3}`);
