@@ -127,6 +127,15 @@ if ((Dolphins > Koalas) && (Dolphins > minimumScore && Koalas > minimumScore)) {
     console.log('Match is draw')
 }
 
+// Taking Decisions: if / else Statements
+
+const population1 = 50;
+if (population1 > 33) {
+    console.log(`${country}'s population is greater than that 33 million`);
+} else {
+    console.log(`${country}'s population is ${33 - population1} million below average`);
+}
+
 ////////////////////////////////////
 // Coding Challenge #4
 
