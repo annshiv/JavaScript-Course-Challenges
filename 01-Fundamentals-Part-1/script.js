@@ -165,7 +165,15 @@ if (numNeighbours === 1) {
     console.log('No borders');
 }
 
+// Equality Operators: === (using type conversion)
 
+if (Number(numNeighbours) === 1) {
+    console.log('only 1 border');
+} else if (Number(numNeighbours) > 1) {
+    console.log('More than 1 border');
+} else {
+    console.log('No borders');
+}
 
 ////////////////////////////////////
 // Coding Challenge #4
