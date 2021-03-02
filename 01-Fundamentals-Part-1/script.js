@@ -175,6 +175,19 @@ if (Number(numNeighbours) === 1) {
     console.log('No borders');
 }
 
+// Logical operators
+
+language = 'english';
+population = 30;
+isIsland = false;
+
+if (language === 'english' && population < 50 && !isIsland)
+{
+console.log(`You should live in ${country} :)`);
+} else {
+console.log(`${country} does not meet your criteria :(`);
+}
+
 ////////////////////////////////////
 // Coding Challenge #4
 
