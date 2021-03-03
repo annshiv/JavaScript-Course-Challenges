@@ -22,3 +22,4 @@ const percentageOfWorld2 = function (population) {
 
 console.log(percentageOfWorld1(1441))
 console.log(percentageOfWorld2(1234))
+
