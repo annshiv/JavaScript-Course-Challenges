@@ -9,3 +9,16 @@ p = prompt("Enter your country population : ");
 capi = prompt("Enter your country capital : ");
 
 console.log(describeCountry(c,p,capi))
+
+// Function Declarations vs. Expressions
+
+function percentageOfWorld1(population) {
+    return (population/7900) * 100;
+};
+
+const percentageOfWorld2 = function (population) {
+    return (population/7900) * 100;
+};
+
+console.log(percentageOfWorld1(1441))
+console.log(percentageOfWorld2(1234))
