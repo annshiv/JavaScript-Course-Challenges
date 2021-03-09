@@ -104,5 +104,10 @@ function calcTip (a) {
 }
 
 const bills = [125,555,44];
-const tips = [calcTip(bills[0]),calcTip(bills[2]),calcTip(bills[2])];
+const tips = [calcTip(bills[0]),calcTip(bills[1]),calcTip(bills[2])];
 console.log(tips)
+
+// Bonus 
+
+const total = [bills[0]+calcTip(bills[0]),bills[1]+calcTip(bills[1]),bills[2]+calcTip(bills[2])]
+console.log(total)
