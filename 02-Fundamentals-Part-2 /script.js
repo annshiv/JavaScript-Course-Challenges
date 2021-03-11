@@ -77,6 +77,21 @@ const checkWinner = function (avgDolphins, avgKoalas) {
 }
 checkWinner(scoreDolphins, scoreKoalas);
 
+// Introduction to Arrays
+
+const populations = [12,23,34,45];
+console.log(populations.length == 4);
+
+const percentages = [
+  percentageOfWorld1(populations[0]),
+  percentageOfWorld1(populations[1]),
+  percentageOfWorld1(populations[2]),
+  percentageOfWorld1(populations[3])
+]
+
+console.log(percentages)
+
+
 ///////////////////////////////////////
 // Coding Challenge #2
 
