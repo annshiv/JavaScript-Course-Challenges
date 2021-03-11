@@ -118,6 +118,16 @@ const myCountry = {
   neighbours : ['pakistan','china','japan']
 };
 
+// Dot vs. Bracket Notation
+
+console.log(`${myCountry.country} has ${myCountry.population} billion ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neibouring countries and a capital called ${myCountry.capital}.`);
+
+myCountry.population = myCountry.population + 2;
+console.log(myCountry.population);
+
+myCountry['population'] -= 2;
+console.log(myCountry.population);
+
 ///////////////////////////////////////
 // Coding Challenge #2
 
