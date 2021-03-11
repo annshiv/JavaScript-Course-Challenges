@@ -115,7 +115,16 @@ const myCountry = {
   capital : 'Delhi',
   language : 'Tamil',
   population : 13,
-  neighbours : ['pakistan','china','japan']
+  neighbours : ['pakistan','china','japan'],
+  describe : function(){
+    console.log(
+      `${this.country} has ${this.population} billion ${this.language}-speaking people, ${this.neighbours.length} neibouring countries and a capital called ${this.capital}.`
+    );
+  },
+
+  checkIsland: function() {
+    this.isIsland = this.neighbours.length === 0 ? true : false;
+  }
 };
 
 // Dot vs. Bracket Notation
@@ -127,6 +136,12 @@ console.log(myCountry.population);
 
 myCountry['population'] -= 2;
 console.log(myCountry.population);
+
+// Object Methods
+
+myCountry.describe();
+myCountry.checkIsland();
+console.log(myCountry);
 
 ///////////////////////////////////////
 // Coding Challenge #2
