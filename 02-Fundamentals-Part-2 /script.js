@@ -116,7 +116,7 @@ const myCountry = {
   language : 'Tamil',
   population : 13,
   neighbours : ['pakistan','china','japan']
-}:
+};
 
 ///////////////////////////////////////
 // Coding Challenge #2
