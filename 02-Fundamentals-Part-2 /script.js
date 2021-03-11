@@ -108,6 +108,16 @@ if (!neighbours.includes('Germany')) {
 neighbours[neighbours.indexOf['Sweden']] = 'Republic of Sweden';
 console.log(neighbours);
 
+// Introduction of Objects
+
+const myCountry = {
+  country : 'India',
+  capital : 'Delhi',
+  language : 'Tamil',
+  population : 13,
+  neighbours : ['pakistan','china','japan']
+}:
+
 ///////////////////////////////////////
 // Coding Challenge #2
 
