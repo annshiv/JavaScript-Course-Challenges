@@ -271,3 +271,17 @@ for (i = 0; i < populations.length; i++) {
 }
 
 console.log(percentages2);
+
+// Looping Backwards and Loops in Loops
+
+const listOfNeighbours = [['Canada', 'Mexico'],['Spain'], ['Norway','Sweden','Russia']];
+
+for(i = 0; i < listOfNeighbours.length; i++) {
+  if (listOfNeighbours[i].length > 1) {
+    for (n = 0 ; n < listOfNeighbours[i].length; n++) {
+      console.log(listOfNeighbours[i][n]);
+    }
+  } else {
+    console.log(listOfNeighbours[i][0]);
+  }
+}
