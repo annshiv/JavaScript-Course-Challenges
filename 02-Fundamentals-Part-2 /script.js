@@ -262,3 +262,12 @@ console.log(winner(marks,john));
 for (let i = 1; i <= 50; i++ ) {
   console.log(`Voter number ${i} is currently voing`);
 }
+
+// Looping Arrays, Breaking and Continuing
+
+const percentages2 = [];
+for (i = 0; i < populations.length; i++) {
+  percentages2.push(percentageOfWorld1(populations[i]));
+}
+
+console.log(percentages2);
