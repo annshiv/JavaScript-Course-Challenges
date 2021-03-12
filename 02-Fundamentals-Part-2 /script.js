@@ -256,3 +256,9 @@ const winner = function(marks,john) {
 };
 
 console.log(winner(marks,john));
+
+// Iteration: The for Loop
+
+for (let i = 1; i <= 50; i++ ) {
+  console.log(`Voter number ${i} is currently voing`);
+}
