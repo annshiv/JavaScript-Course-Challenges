@@ -330,3 +330,15 @@ for (i = 0; i < bills1.length; i++) {
 
 console.log(tips1);
 console.log(totals);
+
+//  Coding Challenge #4 bouns
+
+function calcAverage1(arr) {
+  let sum = 0;
+  for (i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  };
+  return sum / arr.length
+}
+
+console.log(calcAverage1(totals));
